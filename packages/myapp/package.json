@@ -1,0 +1,11 @@
+{
+  "name": "@monoreposimple/myapp",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@monoreposimple/core": "0.x"
+  },
+  "scripts": {
+    "dev": "node src"
+  }
+}

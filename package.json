@@ -1,0 +1,15 @@
+{
+  "name": "monoreposimple",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "3.x"
+  },
+  "scripts": {
+    "dev": "lerna run dev"
+  }
+}
